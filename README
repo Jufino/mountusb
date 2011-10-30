@@ -1,0 +1,6 @@
+build
+	$make
+run
+	$sudo ./mountusb /dev/sdx /where mount
+example
+	$sudo ./mountusb /dev/sda1 /media/usb1
